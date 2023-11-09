@@ -10,7 +10,7 @@ const Footer = () => {
                 <a href='https://www.linkedin.com/in/ahmed-khedimellah-aa87991a0/' target='_blank' rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
                 </p>
                 <p className='copyright'>Réalisé par Ahmed KHEDIMELLAH</p>
-                <a href='../../images/Cv Ahmed v2.pdf' target="_blank" className='download' rel="noreferrer">Télécharger mon Cv</a>
+                <a href='../../images/Cv Ahmed v2.pdf' className='download' rel="noreferrer">Télécharger mon Cv</a>
             </div>
         </footer>
     );
