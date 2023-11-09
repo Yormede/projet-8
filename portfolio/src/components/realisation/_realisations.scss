@@ -106,14 +106,13 @@ div.modaleRea {
         width: 75vw;
         background-color: white;
         border-radius: 20px;
-        height: 75vh;
+        height: 80vh;
         position: relative;
         padding: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        overflow: scroll;
 
         & h3 {
             color: #BD3100;
@@ -143,10 +142,15 @@ div.modaleRea {
         & div.imageList {
             display: flex;
             flex-wrap: wrap;
+            overflow: scroll;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 15px auto;
             & img {
-                width: auto;
-                height: auto;
-                box-sizing: border-box;
+                width: min-content;
+                border: solid 2px #000;
+                margin: 5px;
+                max-width: 95%;
             }
         }
 
@@ -155,7 +159,7 @@ div.modaleRea {
             position: absolute;
             border-radius: 50px;
             padding: 5px 15px;
-            background-color: #f3ba004b;
+            background-color: #ffffff7c;
             z-index: 25;
             &:hover{
                 cursor: pointer;
@@ -163,16 +167,16 @@ div.modaleRea {
         }
         & i.fa-chevron-left {
             top: 48%;
-            left: 0.5%;
+            left: -2%;
         }
         & i.fa-chevron-right {
             top: 48%;
-            right: 0.5%;
+            right: -2%;
         }
         & i.fa-x {
             font-size: 35px;
-            top: 0.5%;
-            right: 0.5%;
+            top: -2%;
+            right: -2%;
             padding: 10px 15px;
         }
     }
